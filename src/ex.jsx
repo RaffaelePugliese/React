@@ -5,7 +5,7 @@ export function Text() {
         <div>
             <Hello />
             <p>What a beautiful day!</p>
-            <Welcome name="Jhon" age={21}/>
+            <Welcome name="Jhon"/>
         </div>
     )
 }
