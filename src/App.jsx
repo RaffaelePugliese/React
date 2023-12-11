@@ -1,11 +1,4 @@
-import { Text } from './ex';
-import { createRoot } from 'react-dom/client'
+export function Hello(){
+    return <h2>Hello, World!</h2>
+  }
 
-
-const MessageElement = <Text></Text>
-
-const App = document.getElementById('root');
-
-const root = createRoot(App);
-
-root.render(MessageElement );
