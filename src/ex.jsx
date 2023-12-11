@@ -1,4 +1,4 @@
-import { Hello } from './index'
+import { Hello } from './App';
 export function Text() {
     return(
         <div>
