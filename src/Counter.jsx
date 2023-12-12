@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button1,Button2,Button3, CounterDisplay } from "./Increase";
 
 
-export function InitialValue() {
+export function ValueCounter() {
     const [Counter,setCounter]= useState(0)
    function IncreaseButton(){
       setCounter((c)=>{
