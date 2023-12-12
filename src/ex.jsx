@@ -1,4 +1,5 @@
 import { Hello } from './App';
+import { AllertButton } from './Button';
 import { Welcome } from './Welcome';
 export function Text() {
     return(
@@ -6,6 +7,7 @@ export function Text() {
             <Hello />
             <p>What a beautiful day!</p>
             <Welcome name="Jhon" age={45}/>
+            <AllertButton />
         </div>
     )
 }
