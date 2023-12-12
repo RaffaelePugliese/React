@@ -1,7 +1,7 @@
 import { Hello } from './App';
 import { AllertButton } from './Button';
 import { Counter } from './Counter';
-import { Welcome } from './Welcome';
+
 export function Text() {
     return(
         <div>
