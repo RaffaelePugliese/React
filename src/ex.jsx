@@ -1,13 +1,14 @@
 import { Hello } from './App';
 import { AllertButton } from './Button';
+import { Clock } from './Clock';
 import { InitialValue } from './Counter';
-import { Welcome } from './Welcome';
+
 export function Text() {
     return(
         <div>
             <Hello />
             <p>What a beautiful day!</p>
-            <Welcome name="Jhon" age={45}/>
+            <Clock />
             <AllertButton />
            <InitialValue/>
         </div>
