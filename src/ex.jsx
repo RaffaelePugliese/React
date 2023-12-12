@@ -2,6 +2,7 @@ import { Hello } from './App';
 import { AllertButton } from './Button';
 import { Clock } from './Clock';
 import { InitialValue } from './Counter';
+import { Handling } from './Handling';
 
 export function Text() {
     return(
@@ -11,6 +12,7 @@ export function Text() {
             <Clock />
             <AllertButton />
            <InitialValue/>
+           <Handling />
         </div>
     )
 }
