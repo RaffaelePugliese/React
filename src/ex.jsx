@@ -1,6 +1,6 @@
 import { Hello } from './App';
 import { AllertButton } from './Button';
-import { InitialValue } from './Counter';
+import { ValueCounter } from './Counter';
 
 export function Text() {
     return(
@@ -9,7 +9,7 @@ export function Text() {
             <p>What a beautiful day!</p>
             
             <AllertButton />
-           <InitialValue/>
+           <ValueCounter />
         </div>
     )
 }
