@@ -8,7 +8,7 @@ export function Text() {
         <div>
             <Hello />
             <p>What a beautiful day!</p>
-            <Clock />
+            
             <AllertButton />
            <InitialValue/>
         </div>
